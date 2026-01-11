@@ -9,6 +9,7 @@ This directory contains project-specific skills that provide Claude with domain 
 |-------|-------------|
 | [testing-patterns](./testing-patterns/SKILL.md) | Jest testing, factory functions, mocking strategies, TDD workflow |
 | [systematic-debugging](./systematic-debugging/SKILL.md) | Four-phase debugging methodology, root cause analysis |
+| [spec-deep-interview](./spec-deep-interview/SKILL.md) | Deep interview methodology for refining SPEC/PRD documents |
 
 ### React & UI
 | Skill | Description |
@@ -38,6 +39,11 @@ This directory contains project-specific skills that provide Claude with domain 
 ### Debugging an Issue
 1. **systematic-debugging** - Root cause analysis
 2. **testing-patterns** - Write failing test first
+
+### Reviewing a Specification
+1. **spec-deep-interview** - Deep interview to identify gaps
+2. **react-ui-patterns** - Ensure UI states are specified
+3. **testing-patterns** - Plan test cases from edge cases
 
 ## How Skills Work
 

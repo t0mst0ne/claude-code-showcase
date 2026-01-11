@@ -317,6 +317,21 @@
         ]
       },
       "relatedSkills": ["systematic-debugging"]
+    },
+    "spec-deep-interview": {
+      "description": "Deep interview methodology for refining SPEC/PRD documents",
+      "priority": 8,
+      "triggers": {
+        "keywords": ["spec", "prd", "specification", "requirement", "interview", "refine spec"],
+        "keywordPatterns": ["\\bspec\\b", "\\bprd\\b", "\\brequirement\\b", "specification"],
+        "pathPatterns": ["**/SPEC*.md", "**/spec/**", "**/PRD*.md", "**/requirements/**"],
+        "intentPatterns": [
+          "(?:review|refine|analyze).*(?:spec|prd|requirement)",
+          "(?:interview|clarify).*(?:spec|requirement|feature)",
+          "(?:spec|prd).*(?:review|gap|question)"
+        ]
+      },
+      "relatedSkills": ["testing-patterns", "react-ui-patterns"]
     }
   }
 }
