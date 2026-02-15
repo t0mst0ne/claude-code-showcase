@@ -912,6 +912,7 @@ Commit everything except:
 | [.claude/commands/pr-summary.md](.claude/commands/pr-summary.md) | Generate PR summary |
 | [.claude/commands/code-quality.md](.claude/commands/code-quality.md) | Quality checks |
 | [.claude/commands/docs-sync.md](.claude/commands/docs-sync.md) | Documentation sync |
+| [.claude/commands/heptabase.md](.claude/commands/heptabase.md) | Upload markdown to Heptabase card |
 | **Hooks** | |
 | [.claude/hooks/skill-eval.sh](.claude/hooks/skill-eval.sh) | Skill evaluation wrapper |
 | [.claude/hooks/skill-eval.js](.claude/hooks/skill-eval.js) | Node.js skill matching engine |
@@ -928,6 +929,8 @@ Commit everything except:
 | [.github/workflows/scheduled-claude-code-docs-sync.yml](.github/workflows/scheduled-claude-code-docs-sync.yml) | Monthly docs sync |
 | [.github/workflows/scheduled-claude-code-quality.yml](.github/workflows/scheduled-claude-code-quality.yml) | Weekly quality review |
 | [.github/workflows/scheduled-claude-code-dependency-audit.yml](.github/workflows/scheduled-claude-code-dependency-audit.yml) | Biweekly dependency audit |
+| **Scripts** | |
+| [scripts/heptabase_sync.py](scripts/heptabase_sync.py) | Playwright-based Heptabase card uploader |
 
 ---
 
